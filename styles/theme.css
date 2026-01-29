@@ -1,0 +1,19 @@
+:root {
+  /* Primary Desi Browns */
+  --color-primary: #4A2E1F;     /* Dark Brown */
+  --color-secondary: #7B4A2E;   /* Earth Brown */
+
+  /* Backgrounds */
+  --color-bg-main: #FBF7F2;     /* Warm Off White */
+  --color-bg-card: #FFFFFF;
+
+  /* Accents */
+  --color-accent-green: #6B8E23;
+
+  /* Text */
+  --color-text-main: #2B1B12;
+  --color-text-muted: #6E5A4E;
+
+  /* Borders */
+  --color-border-light: #E6DCCF;
+}
