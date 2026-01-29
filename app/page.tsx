@@ -1,3 +1,15 @@
-export default function Home() {
-  return <h1 className="text-2xl font-bold">Welcome to Desi Bazaar</h1>;
+import CategorySection from "@/components/home/CategorySection";
+import FeaturedProducts from "@/components/home/FeaturedProducts";
+import HeroSection from "@/components/home/HeroSection";
+import TrustSection from "@/components/home/TrustSection";
+
+export default function HomePage() {
+  return (
+    <>
+      <HeroSection />
+      <CategorySection />
+      <TrustSection />
+      <FeaturedProducts />
+    </>
+  );
 }
